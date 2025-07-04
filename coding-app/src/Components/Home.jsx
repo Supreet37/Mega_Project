@@ -6,6 +6,7 @@ import Testimonials from "./Testimonials";
 import Collaborate from "./Collaborate";
 import Feedback from "./Feedback";
 
+
 const Home = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Home = () => {
       <Testimonials />
       <Collaborate />
       <Feedback />
+
     </div>
   );
 };
