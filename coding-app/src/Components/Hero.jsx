@@ -42,7 +42,7 @@ const Hero = ({ onStudentClick }) => {
   };
 
   return (
-    <div className="relative w-full h-[90vh] max-sm:h-[50vh] max-md:h-[60vh]   max-xl:h-[70vh] max-2xl:h-[60vh] text-white text-center overflow-hidden">
+    <div className="relative w-full h-[650px] max-sm:h-[320px] max-md:h-[400px]   max-xl:h-[600px] max-2xl:h-[600px] text-white text-center overflow-hidden">
 
       <img
         src={images[currentIndex]}

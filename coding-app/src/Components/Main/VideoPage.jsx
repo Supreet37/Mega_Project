@@ -1,10 +1,13 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { learningCourses } from './learningData';
 
 const VideoPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
 
   const course = learningCourses.find(item => item.id === parseInt(id)); 
 
@@ -25,7 +28,7 @@ const VideoPage = () => {
           src={course.videoUrl}
           title={course.title}
           allowFullScreen
-          className="rounded shadow-lg max-w-4xl w-full"
+          className="rounded shadow-lg max-w-4xl w-full max-sm:h-50"
         ></iframe>
       </div>
     </div>
