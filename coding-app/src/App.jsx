@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter,Routes, Route} from "react-router-dom";
 import Home from "./Components/Home";
 import Coding from "./Components/Main/Coding";
 import Courses from "./Components/Main/Courses";
@@ -16,8 +16,8 @@ import Collaborate from "./Components/Collaborate";
 
 const App = () => {
   return (
+    <div>
     <BrowserRouter>
-      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/coding" element={<Coding />} />
@@ -32,8 +32,8 @@ const App = () => {
           <Route path="/collaborate" element={<Collaborate/>} />
         </Routes>
         <Footer />
-      </div>
     </BrowserRouter>
+    </div>
   );
 };
 

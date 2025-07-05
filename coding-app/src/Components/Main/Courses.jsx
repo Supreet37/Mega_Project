@@ -115,7 +115,7 @@ const Course = () => {
           </div>
         )}
 
-        <div className="grid grid-cols-3 gap-10 p-6 m-auto max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-2xl:grid-cols-4">
+        <div className="grid grid-cols-3 gap-10 p-6 m-auto max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-3 max-2xl:grid-cols-4">
           {visibleCourses.map((course) => (
             <CourseCard key={course.id} course={course} onEnroll={addToCart} />
           ))}
