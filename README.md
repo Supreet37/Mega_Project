@@ -2,7 +2,7 @@
 
 **CodeBridge** is a fully responsive learning and internship platform built using React, Vite, and Tailwind CSS. It enables students to explore and enroll in programming courses, submit feedback, participate in events and hackathons.
 
-🔗 **Live Site:** [https://codebridgelearning.netlify.app/](https://codebridgelearning.netlify.app/)
+🔗 **Live Site:** [https://code-bridgeeducation.netlify.app/](https://code-bridgeeducation.netlify.app/)
 
 ---
 
@@ -73,7 +73,7 @@ Mock API (Feedback): http://localhost:5001/feedback
 - [@ompreet-s](https://github.com/ompreet-s) — Ompreet Mohapatra  
 - [@PursuitOfc0de](https://github.com/PursuitOfc0de) — Rishabh Kumar
 
-[![Live Preview](https://img.shields.io/badge/Live%20Preview-%20-28a745?style=for-the-badge&labelColor=28a745&color=28a745)](https://codebridgelearning.netlify.app/)
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-%20-28a745?style=for-the-badge&labelColor=28a745&color=28a745)](https://code-bridgeeducation.netlify.app/)
 
 
 
