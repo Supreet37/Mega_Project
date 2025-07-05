@@ -1,12 +1,31 @@
-# React + Vite
+# 🚀 CodeBridge – A Learning & Coding Challenge Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeBridge is a **React-based education and coding competition portal** designed for students, developers, and job seekers. Inspired by platforms like **Unstop, HackerEarth, and Coursera**, it enables users to:
 
-Currently, two official plugins are available:
+- Enroll in programming courses  
+- Watch free and premium learning videos  
+- Participate in live hackathons  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Project Objective
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To build a modular, frontend-first platform that provides:
+
+- 📚 **Learning** via free video content  
+- 🧑‍💻 **Programming challenges** & hiring sprints  
+- 🛒 **Premium course enrollments** with a cart system using `localStorage`  
+
+---
+
+## 🧱 Tech Stack
+
+| Layer       | Tools Used                    |
+|------------|-------------------------------|
+| Frontend    | React.js (Hooks, Router)      |
+| Styling     | Tailwind CSS                  |
+| Icons       | React Icons (`react-icons`)   |
+| Routing     | React Router DOM              |
+| State Mgmt  | useState, useEffect           |
+| Persistence | localStorage                  |
+
